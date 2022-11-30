@@ -4,8 +4,8 @@ import { useEffect, useState } from 'react';
 import Letter from '../letter/Letter';
 import styles from './Around.module.css';
 
-const SIZE = 30;
-const HOW_MANY_WORDS = 50;
+const SIZE = 10;
+const HOW_MANY_WORDS = 5;
 
 const defaultselectedAtom = Array(SIZE)
 	.fill(false)
