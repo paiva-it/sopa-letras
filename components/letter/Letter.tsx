@@ -73,7 +73,7 @@ function Letter({ x, y, children }: LetterProps) {
 					word += letters[first[0] + i][first[1] + i];
 			}
 
-			reverseWord = word.split('').reverse().join();
+			reverseWord = word.split('').reverse().join('');
 
 			for (let w of words) {
 				if (w === word || w === reverseWord) {
